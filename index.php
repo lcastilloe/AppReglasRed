@@ -133,6 +133,14 @@
             color: white;
         }
 
+        /* Imagen de Millonarios */
+        .logo {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 100px; /* Ajusta el tamaño según sea necesario */
+        }
+
         /* Pie de página */
         .footer {
             background-color: #012856;
@@ -146,6 +154,9 @@
 </head>
 <body>
     <div class="container">
+        <!-- Imagen de Millonarios -->
+        <img src="millonarios.png" alt="Millonarios Logo" class="logo">
+
         <!-- Mensaje de bienvenida en la parte superior -->
         <div class="welcome">
             ¡BIENVENIDO!
@@ -156,8 +167,7 @@
                 SE TIENE LA SIGUIENTE RED
                 <!-- Diagrama de red generado con SVG -->
                 <svg width="250" height="400" xmlns="http://www.w3.org/2000/svg">
-                    <!-- Diagrama de red (c0, s1, h1, h2) -->
-                     <!-- Nodo c0 -->
+                    <!-- Nodo c0 -->
                     <circle cx="125" cy="40" r="30" fill="#2e4b94">
                         <animate attributeName="r" from="30" to="35" dur="1s" repeatCount="indefinite" />
                     </circle>
@@ -233,7 +243,6 @@
                                 <td>2</td>
                                 <td>IP</td>
                             </tr>
-                           
                         </tbody>
                     </table>
                 </div>
