@@ -1,0 +1,66 @@
+.container {
+    padding: 20px;
+    text-align: center;
+    background-color: #f7f7f7;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.scrollContainer {
+    max-height: calc(100vh - 150px); /* Altura máxima para el contenedor con desplazamiento */
+    overflow-y: auto; /* Desplazamiento vertical */
+    padding: 10px 0;
+}
+
+.listasContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Centra las listas horizontalmente */
+}
+
+.addButton {
+    display: flex;
+    align-items: center;
+    background-color: #c78c6f;
+    color: white;
+    border: none;
+    border-radius: 24px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+}
+
+.inactiveButton {
+    display: flex;
+    align-items: center;
+    background-color: #c78c6f;
+    color: white;
+    border: none;
+    border-radius: 24px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    position: absolute;
+    right: 20px;
+}
+
+.addIcon {
+    font-size: 24px;
+    margin-left: 400px;
+}
+
+.inactiveIcon {
+    font-size: 20px;
+    margin-left: 8px;
+}
